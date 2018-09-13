@@ -49,15 +49,6 @@ public class OnClicked : MonoBehaviour {
 		if(OperationStart){
 			DoOpertaion();
 		}
-	/*	if(Input.GetMouseButtonDown(0) && !MouseOnObject)
-  		{
-			WrongTime=Time.time;
-  			WrongMark.SetActive(true);
-   		}
-		if(WrongTime+0.3f<=Time.time){
-			WrongMark.SetActive(false);
-		}
-	*/
 	}
 
 	void OnMouseEnter(){
