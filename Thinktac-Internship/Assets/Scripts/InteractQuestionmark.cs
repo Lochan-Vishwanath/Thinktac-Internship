@@ -18,7 +18,14 @@ public class InteractQuestionmark : MonoBehaviour {
 	bool WrongAnswerScreenActivated=false,NoTextEnteredActivated=false;
 	float screentime;
 
+	AudioSource audioclip;
+
+	void Start(){
+		audioclip=GetComponent<AudioSource>();
+	}
+
 	public void OnButtonClicked(){
+		audioclip.Play();
 		Qmark.gameObject.SetActive(false);
 		button.gameObject.SetActive(false);
 		ipfield.gameObject.SetActive(true);
