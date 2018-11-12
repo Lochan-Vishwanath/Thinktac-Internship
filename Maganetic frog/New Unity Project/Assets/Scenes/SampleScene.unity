@@ -1176,7 +1176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540, y: -310}
+  m_AnchoredPosition: {x: -434.5, y: -301.8}
   m_SizeDelta: {x: 200.1, y: 47.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &474337966
@@ -1279,7 +1279,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 478138451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.09, y: -5.26, z: -0.1171875}
+  m_LocalPosition: {x: -10.18, y: -4.97, z: -0.1171875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2012245447}
@@ -1674,7 +1674,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540588221}
   m_LocalRotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
-  m_LocalPosition: {x: 13.32, y: -5.03, z: 0}
+  m_LocalPosition: {x: 11.89, y: -4.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3503,7 +3503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 574, y: -311}
+  m_AnchoredPosition: {x: 520.1, y: -306.6}
   m_SizeDelta: {x: 200.1, y: 47.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355398365
@@ -3712,7 +3712,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1516146853}
   m_LocalRotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
-  m_LocalPosition: {x: 13.32, y: -5.03, z: 0}
+  m_LocalPosition: {x: 11.89, y: -4.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4054,6 +4054,8 @@ GameObject:
   - component: {fileID: 1672142302}
   - component: {fileID: 1672142303}
   - component: {fileID: 1672142304}
+  - component: {fileID: 1672142306}
+  - component: {fileID: 1672142305}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4130,9 +4132,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1672142229}
+  - {fileID: 1672142274}
   selectedCommands:
-  - {fileID: 1672142231}
+  - {fileID: 1672142305}
   variables: []
   description: 
   stepPause: 0
@@ -5924,7 +5926,7 @@ MonoBehaviour:
   textObject: {fileID: 1988172893}
   text:
     stringRef: {fileID: 0}
-    stringVal: Drag and Drop 'Frog Cutout' on to 'Straw + Foam'
+    stringVal: These Magnets are placed in such a way that they repel each other.
   description: 
   clearText: 1
   waitUntilFinished: 1
@@ -5964,6 +5966,8 @@ MonoBehaviour:
   - {fileID: 1672142276}
   - {fileID: 1672142275}
   - {fileID: 1672142273}
+  - {fileID: 1672142305}
+  - {fileID: 1672142306}
   - {fileID: 1672142282}
 --- !u!114 &1672142275
 MonoBehaviour:
@@ -6118,7 +6122,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1672142283
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6392,7 +6396,7 @@ MonoBehaviour:
   targetObject: {fileID: 1382186569}
 --- !u!114 &1672142296
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6420,7 +6424,7 @@ MonoBehaviour:
   - {fileID: 1672142297}
 --- !u!114 &1672142297
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6449,7 +6453,7 @@ MonoBehaviour:
     colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1672142298
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6469,7 +6473,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1672142299
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6489,7 +6493,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1672142300
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6503,7 +6507,7 @@ MonoBehaviour:
   waitFrames: 1
 --- !u!114 &1672142301
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6520,7 +6524,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1672142302
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6537,7 +6541,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1672142303
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6557,7 +6561,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1672142304
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672142187}
@@ -6572,6 +6576,50 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1672142305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1672142187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
+--- !u!114 &1672142306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1672142187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2261dbe44de43a980e6f7c77c88f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  textObject: {fileID: 1988172893}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Drag and Drop 'Frog Cutout' on to 'Straw + Foam'
+  description: 
+  clearText: 1
+  waitUntilFinished: 1
+  textColor: 0
+  setAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  setColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1742543527
 GameObject:
   m_ObjectHideFlags: 0
@@ -6860,7 +6908,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 574, y: -311}
+  m_AnchoredPosition: {x: 520.10004, y: -306.6}
   m_SizeDelta: {x: 200.1, y: 47.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082653816
