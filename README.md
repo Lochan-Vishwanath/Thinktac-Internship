@@ -1,2 +1,2 @@
 # Thinktac-Internship
-Thinktac-Internship Assignment Game
+ThinkTac - Complete Internship project (all 7 projects)
